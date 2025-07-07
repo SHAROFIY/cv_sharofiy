@@ -1,0 +1,64 @@
+/* Umumiy sahifa uslubi */
+body {
+  max-width: 800px;                /* Sahifa maksimal eni */
+  margin: 30px auto;               /* Avtomatik o'rtaga qo'yish */
+  background-color: #c5c7c5;       /* Oq fon */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Chiroyli zamonaviy shrift */
+  color: #333;                     /* Matn rangi kulrang */
+  padding: 30px;                   /* Ichki bo'sh joy */
+  border-radius: 10px;             /* Burchaklarni yumaloq qilish */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Engil soyali effekt */
+}
+
+/* Eng katta sarlavha */
+h1 {
+  text-align: center;            /* Markazga */
+  color: #2c3e50;                /* To‘q kul-ko‘k rang */
+  font-size: 36px;              /* Katta o‘lcham */
+  margin-bottom: 20px;
+}
+
+/* Bo'lim sarlavhalari */
+h2 {
+  color: #34495e;                     /* To‘q rang */
+  border-bottom: 2px solid #3498db;   /* Tagiga chiziq */
+  padding-bottom: 5px;               /* Matndan chiziqgacha bo'sh joy */
+  margin-top: 40px;                 /* Yuqoridan joy */
+}
+
+/* Paragraflar */
+p {
+  text-align: center;              /* Markazga */
+  color: #555;                     /* Yumshoq kulrang */
+  font-size: 16px;                 /* O‘lcham */
+  margin-bottom: 10px;
+}
+
+/* Ro'yxatlar */
+ul {
+  list-style-type: disc;          /* Doira belgilar */
+  padding-left: 20px;            /* Chapdan joy */
+}
+
+/* Ro'yxat ichidagi elementlar */
+li {
+  margin-bottom: 5px;            /* Pastga bo'sh joy */
+  font-size: 15px;              /* O‘lcham */
+}
+
+/* Tugma uslubi, agar qo'shmoqchi bo'lsang */
+button {
+  background-color: #3498db;    /* Ko'k fon */
+  color: white;                /* Matn oq */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+/* Tugma ustiga borganida */
+button:hover {
+  background-color: #2980b9;
+}
